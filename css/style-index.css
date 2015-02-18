@@ -1,0 +1,260 @@
+.navbar{
+    visibility: hidden;
+}
+
+#nav-home{
+    color: #555555;
+    background-color: #e7e7e7;
+}
+
+.top-bar{
+    position: absolute;
+    top:0px;
+    left:0px;
+    right: 0px;
+    height: 15px;
+    background-color: #000;
+    z-index: 100;
+}
+
+/* CAROUSEL
+-------------------------------------------------- */
+
+.carousel {
+  height: 600px;
+  margin-bottom: 40px;
+}
+
+.carousel-caption {
+  z-index: 10;
+  top: 150px;
+}
+
+.carousel-indicators{
+  bottom: 100px;
+}
+
+.carousel .item {
+  height: 600px;
+  background-color: #191919;
+}
+
+
+
+.item-1{
+    position: relative;
+    background: linear-gradient(rgba(23, 22, 23, 0.6), rgba(23, 22, 23, 0.6)), url(./img/carousel/console.png) no-repeat top center;
+    background-image: linear-gradient(90deg, rgba(23, 23, 23,0.8), rgba(23,23,23,0.4) , rgba(23, 23, 23, 0.8) ), url(http://www.insightartists.com/img/carousel/console.png);
+    background-position-x: initial, 50%;
+    background-position-y: initial, 50%;
+    background-size: cover;
+    background-repeat-x: initial, no-repeat;
+    background-repeat-y: initial, no-repeat;
+    background-attachment: initial, fixed;
+    background-origin: initial, initial;
+    background-clip: initial, initial;
+    background-color: initial;
+}
+
+.item-2{
+    position: relative;
+    background: linear-gradient(rgba(23, 22, 23, 0.6), rgba(23, 22, 23, 0.6)), url(./img/carousel/mic.png) no-repeat top center;
+    background-image: linear-gradient(90deg, rgba(23, 23, 23,0.8), rgba(23,23,23,0.4), rgba(23, 23, 23, 0.8) ), url(http://www.insightartists.com/img/carousel/mic.png);
+    background-position-x: initial, 50%;
+    background-position-y: initial, 0%;
+    background-size: cover;
+    background-repeat-x: initial, no-repeat;
+    background-repeat-y: initial, no-repeat;
+    background-attachment: initial, fixed;
+    background-origin: initial, initial;
+    background-clip: initial, initial;
+    background-color: initial;
+}
+
+.img-logo1{
+    display:none;
+}
+.img-logo2{
+    display: block;
+}
+
+.header-nav{
+    list-style: none;
+    margin-left: -40px;
+    position: absolute;
+    top: 535px;
+    left: 0px;
+    right: 0px;
+    z-index: 100;
+    text-align: center;
+}
+
+.header-nav li{
+    display: inline;
+    margin: 0px 5px;
+}
+
+.header-nav li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.header-nav li a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+
+.tagline{
+    margin-top: 60px;
+    font-size: 30px;
+    font-weight: 200;
+    font-style: italic;
+}
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+.marketing {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.marketing h2{
+    color: #FF4719;
+    font-weight: 900;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-style: italic;
+}
+
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+}
+
+.marketing .col-lg-4 {
+
+}
+
+.marketing img{
+    border-radius: 50px;    
+}
+
+.welcome{
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 21px;
+    font-style: italic;
+}
+
+.welcome-message{
+    padding: 0px 15px; 
+}
+
+.size-fix{
+    margin-top: 50px;
+}
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 20px 0; 
+}
+
+.featurette-heading {
+  font-weight: 200;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+@media (min-width: 480px) {
+    
+    .header-nav{
+        top: 530px; 
+    }
+    .header-nav li a{
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 768px) {
+    .marketing {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    .img-logo1{
+        display: block;
+    }
+    
+    .img-logo2{
+        display: none;
+    }
+    
+    .carousel-caption p {
+        margin-bottom: 20px;
+        font-size: 40px;
+        line-height: 1.4;
+    }
+    
+    .featurette-heading {
+        font-size: 50px;
+    }
+    .featurette-divider {
+        margin: 40px 0; 
+    }
+    .welcome-message{
+        padding: 0px 125px;
+        font-size: 19px;
+    }
+    .welcome{
+        font-size: 30px;
+        margin-left: -10px;
+    }
+    .marketing{
+        font-size: 18px;
+        font-weight: 200;
+    }
+    .header-nav{
+        top: 500px;
+    }
+    .header-nav li{
+        display: inline;
+        margin: 0px 10px;
+    }
+    .header-nav li a{
+        text-decoration: none;
+        color: #fff;
+        font-size: 25px;
+        font-weight: 100;
+    }
+}
+
+@media (min-width: 992px) {
+    .featurette-heading {
+        margin-top: 120px;
+    }
+    .header-nav{
+        top: 550px;
+        text-align: left;
+    }
+    .header-nav{
+        top: 550px;
+        text-align: left;
+    }
+    .header-nav li{
+        display: inline;
+        margin: 0px 10px;
+    }
+    .header-nav li a{
+        text-decoration: none;
+        color: #fff;
+        font-size: 25px;
+        font-weight: 100;
+    }
+}

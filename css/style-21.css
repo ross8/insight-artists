@@ -1,0 +1,75 @@
+body{
+    padding-top: 75px;  
+}
+
+#nav-artists{
+    color: #555555;
+    background-color: #e7e7e7;
+
+}
+
+.content img{
+    border-radius: 50px;
+}
+
+.intro{
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.intro-text{
+    margin-top: 10px;
+}
+
+.artist-heading{
+    color: #FF4719;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-style: italic;
+    margin-top: 0px;
+}
+
+.band-profile{
+    display: block;
+    font-size: 18px;
+}
+
+.main-pic-1{
+    margin-bottom: 5px;
+}
+
+.main-pic-2{
+    display: none;
+}
+
+@media (min-width: 480px){
+    .intro-text{
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 768px) {
+    .artist-heading {
+        font-size: 50px;
+    }
+    .artist-heading-sm{
+        font-size: 40px;
+    }
+    .band-profile{
+        font-size: 30px;
+    }
+    .intro-text{
+        margin-top: 0px;
+    }
+    .main-pic-2{
+        display: block;
+    }
+}
+    
+@media (min-width: 992px) {
+    .intro-text{
+        font-size: 18px;
+    }
+    .main-pic-2{
+        display: none;
+    }
+}

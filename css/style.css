@@ -1,0 +1,44 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+
+body {
+  padding-bottom: 40px;
+  color: #5a5a5a;
+}
+
+/* NAVBAR
+-------------------------------------------------*/
+.navbar{
+    background-color: #fff;
+    background-color: rgb(255,255,255);
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-weight: 200;
+    border-color: #D0D0D0;
+}
+
+/* Footer
+----------------------------*/
+
+footer{
+    font-size: 10px;
+}
+
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+@media (min-width: 480px) {
+    
+}
+
+@media (min-width: 768px) {
+    footer{
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 992px) {
+
+}
+

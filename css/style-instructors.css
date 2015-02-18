@@ -1,0 +1,14 @@
+.container{
+    padding-top: 75px;
+}
+
+.instructor-heading{
+    color: #FF4719;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-style: italic;
+    margin-top: 0px;
+}
+
+img{
+    border-radius: 50px;
+}

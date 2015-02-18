@@ -1,0 +1,10 @@
+<div class="container">
+    <h2 class="heading">Ed's Bio:</h2>
+    <p class="lead">
+        Ed was born and raised in Spartanburg SC in a household where music was a part of everything. Growing up he had lessons in guitar, piano, and clarinet. Ed continued playing these and various other instruments throughout high school. After high school graduation, he served 6 years in the Marine Corps and then attended the Art Institute of Atlanta where he majored in Music and Entertainment Management. There, Ed received training in audio/ video production, audio recording, and sound engineering. After leaving AIA, he worked on road crews and in promotions and management for several bands including Flash, EMD, Metropolis, Torn Lace, and Queen Anne's Revenge. In 1991, Ed arranged for investor funding totaling $25,000.00 for the band Metropolis to purchase professional sound equipment and to record a demo. Soon thereafter, he procured $40,000.00 to fund equipment and the production of an EP for the band Queen Anne's Revenge, which resulted in contract offers from both Interscope and Atlantic Records.
+    </p>
+    <p class="lead">
+        Recently Ed was contacted by a musician who asked if he could help in his search for a vocalist for a band he was forming in San Antonio, Texas. In an afternoon, Ed was able to make 2 phone calls and locate a singer for him whose writing style, touring experience, professionalism made him perfect for the job. After exchanging several songs, lyrics, and recording a few demos it became clear that Ed's candidate was the perfect singer for the band. Now after several weeks of work, the songs they wrote together are finished and nearly ready for release in the form of an EP entitled "Awakening" by the Texas-based rock group Twentyone Stitches. Having financed the EP, Ed is its executive producer.    
+    </p>
+    <hr class="featurette-divider">
+</div>
